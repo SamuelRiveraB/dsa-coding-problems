@@ -24,6 +24,8 @@ function containsCommonItem(arr1, arr2) {
   return false;
 }
 
+// O(1) space ^
+
 function containsCommonItem2(arr1, arr2) {
   // loop through first array and create object where properties ==== items in the array
   let map = {};
@@ -41,6 +43,8 @@ function containsCommonItem2(arr1, arr2) {
   }
   return false;
 }
+
+// O(n) space ^
 
 function containsCommonItem3(arr1, arr2) {
   return arr1.some((item) => arr2.includes(item));
