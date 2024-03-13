@@ -7,3 +7,8 @@
 // const array1 = ['a', 'b', 'c', 'x']
 // const array2 = ['z', 'y', 'x']
 // should return true
+
+// 2 parameters - arrays - no size limit
+// return true or false
+
+// O(n^2)
