@@ -23,3 +23,21 @@ function containsCommonItem(arr1, arr2) {
   }
   return false;
 }
+
+function containsCommonItem2(arr1, arr2) {
+  // loop through first array and create object where properties ==== items in the array
+  let map = {};
+  for (let i = 0; i < arr1.length; i++) {
+    if (!map[array[i]]) {
+      const item = array[i];
+      map[item] = true;
+    }
+  }
+
+  for (let j = 0; j < arr2.length; j++) {
+    if (map[arr2[j]]) {
+      return true;
+    }
+  }
+  return false;
+}
