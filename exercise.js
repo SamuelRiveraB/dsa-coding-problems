@@ -21,4 +21,5 @@ function containsCommonItem(arr1, arr2) {
       }
     }
   }
+  return false;
 }
