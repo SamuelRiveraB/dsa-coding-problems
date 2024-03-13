@@ -41,3 +41,7 @@ function containsCommonItem2(arr1, arr2) {
   }
   return false;
 }
+
+function containsCommonItem3(arr1, arr2) {
+  return arr1.some((item) => arr2.includes(item));
+}
